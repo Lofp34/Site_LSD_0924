@@ -1,0 +1,57 @@
+.hero {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero-subtitle {
+  font-family: "Marker Felt", sans-serif;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.hero-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.hero-cta {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.hero-small-text {
+  font-size: 0.8em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.hero-checklist {
+  list-style: none;
+  padding: 0;
+  font-size: 1em;
+}
+
+.hero-checklist li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-checklist li::before {
+  content: "✓";
+  color: #007bff;
+  margin-right: 10px;
+}
